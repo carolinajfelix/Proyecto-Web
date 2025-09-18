@@ -1,39 +1,51 @@
 <!DOCTYPE html>
+<!-- Declaración del tipo de documento, importante para que el navegador interprete correctamente el HTML -->
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<!-- Define la codificación de caracteres, UTF-8 es el estándar recomendado -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Hace que el sitio sea responsive, adaptándose a diferentes tamaños de pantalla -->
 		<title>My Web Project - WEB ATELIER (UDIT)</title>
+		<!-- Título que aparece en la pestaña del navegador -->
 		<meta name="description" content="A student web project for WEB ATELIER (UDIT) course" />
+		<!-- Descripción para SEO y accesibilidad -->
 		<link rel="stylesheet" href="assets/css/style.css" />
+		<!-- Enlaza la hoja de estilos principal -->
+		<!-- Sugerencia: Puedes añadir un favicon para personalizar el icono de la pestaña -->
+		<!-- <link rel="icon" href="assets/img/favicon.ico" /> -->
 	</head>
 	<body>
 		<a href="#main" class="skip-link">Skip to main content</a>
-
+		<!-- Enlace de salto para accesibilidad, permite a usuarios de teclado saltar directamente al contenido principal -->
 		<header>
 			<div class="container">
 				<h1>My Web Project</h1>
+				<!-- Encabezado principal de la página -->
 				<p>Student Project - WEB ATELIER (UDIT)</p>
+				<!-- Subtítulo o descripción corta -->
 			</div>
 		</header>
-
 		<main id="main" class="container">
+			<!-- Elemento principal, contiene el contenido relevante de la página -->
 			<section>
 				<h2>Welcome</h2>
+				<!-- Segundo nivel de encabezado, importante para la jerarquía semántica -->
 				<p>
 					This is the starting point for my web project. I will build this incrementally, committing progress after each
 					class.
 				</p>
-
+				<img src="https://ik.imagekit.io/j4sminez03/9518b6b82dba5150b8f6ae4053eb43f1.jpg?updatedAt=1758206461070" alt="who is this diva?" />
 				<h3>Project Goals</h3>
+				<!-- Tercer nivel de encabezado, para subsecciones -->
 				<ul>
 					<li>Create a responsive, accessible website</li>
 					<li>Practice semantic HTML</li>
 					<li>Implement modern CSS techniques</li>
 					<li>Follow web accessibility guidelines</li>
 				</ul>
+				<!-- Lista de objetivos del proyecto -->
 			</section>
-
 			<section>
 				<h2>Weekly Progress</h2>
 				<p>
@@ -41,20 +53,24 @@
 					<a href="https://github.com/[username]/[project-repo]/commits/main">commit history</a>
 					to see weekly progress.
 				</p>
+				<iframe width="560" height="315" src="https://imagekit.io/player/embed/j4sminez03/sample-video.mp4?updatedAt=1758206206596&thumbnail=https%3A%2F%2Fik.imagekit.io%2Fj4sminez03%2Fsample-video.mp4%2Fik-thumbnail.jpg%3FupdatedAt%3D1758206206596&updatedAt=1758206206596" title="ImageKit video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"> </iframe>
+				<!-- Sugerencia: Personaliza el enlace de GitHub con tu usuario y repositorio reales -->
 			</section>
 		</main>
-
 		<footer>
 			<div class="container">
 				<p>© 2025 [Your Name] — WEB ATELIER (UDIT) · Web Design (2025 Fall).</p>
+				<!-- Sugerencia: Sustituye [Your Name] por tu nombre real -->
 				<p>
 					<a href="https://github.com/ruvebal/web-atelier-udit">Course Framework</a>
 					·
 					<a href="project-brief.md">Project Brief</a>
 				</p>
+				<!-- Enlaces útiles relacionados con el curso y el proyecto -->
 			</div>
 		</footer>
-
 		<script src="assets/js/main.js"></script>
+		<!-- Enlaza el archivo JavaScript principal -->
+		<!-- Sugerencia: Añade atributos 'alt' descriptivos si incluyes imágenes en el futuro -->
 	</body>
 </html>
