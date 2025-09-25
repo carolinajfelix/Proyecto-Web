@@ -1,6 +1,9 @@
 /* WEB ATELIER (UDIT) - Student Project Template Styles */
 
 /* Reset and base styles */
+body {
+	background-color:antiquewhite;
+	}
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -140,3 +143,4 @@ select:focus {
 .skip-link:focus {
 	top: 6px;
 }
+
